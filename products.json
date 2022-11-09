@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "timestamp": 1667885947319,
+    "name": "adidas run 70s",
+    "descrip": "Rendí homenaje a los irrepetibles años 70 con estas zapatillas de running ADIDAS.",
+    "url": "https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatillas-adidas-run-70s-negra-100010gx3090001-1.jpg",
+    "price": 35000,
+    "stock": 35
+  },
+  {
+    "id": 2,
+    "timestamp": 1667885947319,
+    "name": "nike air zoom",
+    "descrip": "NIKE Winflo 8 reintroduce la amortiguación que tanto te gusta y la combina con detalles como una parte superior",
+    "url": "https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatillas-running-nike-zoom-winflo-8-mujer-negra-510010cw3421005-11.jpg",
+    "price": 32999,
+    "stock": 20
+  },
+  {
+    "id": 3,
+    "timestamp": 1667885947319,
+    "name": "nike quest",
+    "descrip": "Dejá que NIKE te acompañe en cada recorrido con las Quest 2.",
+    "url": "https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatillas-running-nike-quest-4-mujer-azul-510010da1106401-1.jpg",
+    "price": 20499,
+    "stock": 33
+  },
+  {
+    "id": 4,
+    "timestamp": 1667885947319,
+    "name": "reebok freestyle",
+    "descrip": "Ponete un look inspirado en el drama criminal de atracos de Netflix La Casa de Papel",
+    "url": "https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/b/o/botas-reebok-freestyle-hi-la-casa-de-papel-mujer-roja-111010gx9442001-1.jpg",
+    "price": 28699,
+    "stock": 20
+  }
+]

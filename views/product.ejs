@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Colimmerce/api/productos</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a href="/"><h1>E-Colimmerce</h1></a>
+      </nav>
+    </header>
+    <main>
+      <section class="products">
+        <div class="card">
+          <img src="<%= product.url %>" alt="shoe" />
+          <div class="card__container">
+            <h2><b><%= product.name %></b></h2>
+            <div class="card__numbers">
+              <p class="card__price">$ <%= product.price.toLocaleString("es") %></p>
+              <span>Stock: <%= product.stock %></span>
+            </div>
+            <p class="card__descrip"><%= product.descrip %></p>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+:root {
+  --whiteGhost: #f7f5fb;
+  --platinum: #eaeaea;
+  --matteCharcoal: #3b4248;
+  --fieryRose: #e95d70;
+  --russianGreen: #7a9e7e;
+  --cornBlue: #7b9cda;
+  --babyBlue: #9fbdf5;
+  --blueBeau: #ccdde2;
+  --blueWild: #93a3bc;
+  --grayDim: #716a5c;
+  --t04: all ease 0.4s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--matteCharcoal);
+}
+
+html {
+  background-color: var(--whiteGhost);
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  padding: 1rem 0;
+  background-color: var(--babyBlue);
+  color: var(--grayDim);
+  border-bottom: var(--cornBlue) 2px solid;
+}
+
+.nav {
+  width: 80%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav h1 {
+  font-size: 2.4rem;
+}
+
+main {
+  padding: 1rem 0;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1400px;
+}
+
+.main__section {
+  margin-top: 10vh;
+  width: 100%;
+  display: flex;
+  gap: 0 4rem;
+}
+
+.main__section a {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--babyBlue);
+  border: 2px solid var(--cornBlue);
+  text-decoration: none;
+  border-radius: 15px;
+  transition: var(--t04);
+}
+
+.main__section a:hover {
+  transform: scale(1.01);
+}
+
+.main__title {
+  font-size: 2rem;
+}
+
+.products {
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  background-color: #fff;
+  border: 2px solid var(--cornBlue);
+}
+
+.card__container {
+  background-color: var(--babyBlue);
+  padding: .5rem;
+  min-height: 147px;
+}
+
+.card__container h2{
+  text-transform: capitalize;
+}
+
+.card__numbers {
+  padding: 1rem ;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+.card__descrip {
+  font-size: .8rem;
+  font-weight: bolder;
+}
+
+.card__form {
+  text-align: start;
+  display: flex ;
+  flex-direction: column;
+  gap: .5rem 0;
+  background-color: var(--babyBlue);
+  padding: .5rem;
+  min-height: 147px;
+}
